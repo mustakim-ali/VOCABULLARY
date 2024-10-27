@@ -1,0 +1,51 @@
+body {
+    background-color: darkblue;
+}
+
+.word {
+    padding: 50px;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.word-column {
+    width: 100%;
+}
+
+.first-word {
+    color: aquamarine;
+}
+
+.second-word {
+    color: thistle;
+}
+
+.third-word {
+    color: khaki;
+}
+
+@media screen and (max-width: 767px) {
+    .word-column {
+        max-width: 100%;
+    } 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .word-column {
+        max-width: 50%;
+    } 
+}
+
+@media screen and (min-width: 1024px ) {
+    .word-column {
+        max-width: calc(100% / 3);
+    }
+}
+
+/* Phone Screen */
+/* Tablet Screens */
+/* Desktop Screens */
+/* Big/Large Screen */
